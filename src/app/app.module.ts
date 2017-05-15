@@ -8,6 +8,7 @@ import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { CssComponent } from './components/css/css.component';
 import { NgClassComponent } from './components/ng-class/ng-class.component';
 import { AsincronoComponent } from './components/asincrono/asincrono.component';
+import { ResaltadoDirective } from './directives/resaltado.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AsincronoComponent } from './components/asincrono/asincrono.component';
     NgStyleComponent,
     CssComponent,
     NgClassComponent,
-    AsincronoComponent
+    AsincronoComponent,
+    ResaltadoDirective
   ],
   imports: [
     BrowserModule,
